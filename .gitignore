@@ -1,0 +1,13 @@
+# compiled class files
+*.class
+
+# vim swap files
+*.swo
+*.swp
+
+# vim extended undo files
+*.un~
+/include
+*.un~
+/src
+*.un~
