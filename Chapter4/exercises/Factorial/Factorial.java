@@ -72,7 +72,7 @@ public class Factorial{
         }
         return e;
     }
-    // C - compuate value of e^x.
+    // C - compute value of e^x.
     // e^x = 1 + x/1! + x^2/2! + x^3/3!...
     private static double getValueE(int n, int x){
         double e = 1.0;

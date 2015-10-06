@@ -1,7 +1,7 @@
 /*
- *       Filename:  EncrypyDecryptTest.java
+ *       Filename:  EncryptDecryptTest.java
  *
- *    Description:  4.338 - encrypt and decrypt four digit integers.
+ *    Description:  4.33 - Encrypt and decrypt four digit integers test.
  *
  *        Created:  02/10/15 18:52:08
  *       Revision:  none
@@ -13,19 +13,15 @@
  */
 import java.util.Scanner;
 
-public class EncrypyDecryptTest{
+public class EncryptDecryptTest{
         public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        EncrypyDecrypt ed = new EncrypyDecrypt();
+        EncryptDecrypt ed = new EncryptDecrypt();
 
-        int value;
-
-        prompt();
-        value = sc.nextInt();
+        int value = requestInput("Enter a 4 digit number for encryption: ", sc);
 
         while(ed.validate(value) != true){
-            prompt();
-            value = sc.nextInt();
+            value = requestInput("Enter a 4 digit number for encryption: ", sc);
         }
         int encrypted = ed.encrypt(value);
         int decrypted = ed.decrypt(encrypted);
@@ -33,7 +29,8 @@ public class EncrypyDecryptTest{
         System.out.println("Encrypted: " + encrypted);
         System.out.println("Decrypted: " + decrypted);
     }
-    public static void prompt(){
-        System.out.print("Enter a four digit integer for encryption: ");
+    public static int requestInput(String s, Scanner sc){
+        System.out.print(s);
+        return sc.nextInt();
     }
 }
