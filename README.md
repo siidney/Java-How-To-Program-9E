@@ -6,6 +6,9 @@
 This is a wip and is being used as a tool for learning Java so don't expect
 perfection right off of the bat.
 
+I am also not mathematically proficient in the slightest so some of the
+solutions may not be done in the most efficient way.
+
 ##Chapter List (Updated as they are completed)
 
 > - **Chapter 1** - Introduction to Computing
