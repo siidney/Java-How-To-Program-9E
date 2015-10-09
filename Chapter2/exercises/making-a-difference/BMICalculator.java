@@ -33,15 +33,9 @@ public class BMICalculator{
                 (choice == 1) ? "inches(ft * 12 * in)" : "metres");
         height = input.nextDouble();
 
-
         bmi = (choice == 1) ? calculateImperial(weight, height) : calculateMetric(weight, height);
-        /*if(choice == 1)
-            bmi = calculateImperial(weight, height);
-        else
-            bmi = calculateMetric(weight, height);*/
 
         System.out.printf("Your BMI : %.1f\n", bmi);
-
         printBmiTable();
     }
 
@@ -56,7 +50,7 @@ public class BMICalculator{
     // print BMI information from Department of Health and Human Services /
     // National Institutes of Health.
     private static void printBmiTable(){
-        System.out.println("BMI VALUES:");
+        System.out.printf("BMI VALUES:");
         System.out.println("Underweight: less than 18.5");
         System.out.println("Normal:      between 18.5 and 24.9");
         System.out.println("Overweight:  between 25 and 29.9");

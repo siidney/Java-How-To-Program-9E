@@ -30,7 +30,7 @@ public class Date{
     }
     // setters
     public void setMonth(int month){
-        this.month= month;
+        this.month = month;
     }
     public void setDay(int day){
         this.day = day;

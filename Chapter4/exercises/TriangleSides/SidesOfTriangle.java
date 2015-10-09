@@ -37,9 +37,6 @@ public class SidesOfTriangle{
     // the sum of any 2 sides must be greater than the 3rd
     // must be true of all combinations
     private static boolean isTriangle(int a, int b, int c){
-        if((a + b > c) && (a * c > b) && (b + c > a))
-            return true;
-
-        return false;
+        return ((a + b > c) && (a * c > b) && (b + c > a));
     }
 }

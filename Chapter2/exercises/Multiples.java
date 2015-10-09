@@ -6,10 +6,10 @@
  *                  prints the results.
  *
  *        Created:  26/09/15 01:06:18
- *       Revision:  none
+ *       Revision:  09/10/15 16:00:41
  *
  *        @Author:  Siidney Watson - siidney.watson@gmail.com
- *       @Version:  1.0
+ *       @Version:  1.1
  *
  * =====================================================================================
  */
@@ -17,15 +17,11 @@ import java.util.Scanner;
 
 public class Multiples{
     public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        int x, y;
-
-        System.out.print("Enter first integer: ");
-        x = input.nextInt();
-
-        System.out.print("Enter second integer: ");
-        y = input.nextInt();
+        System.out.print("Enter two space separated integers: ");
+        int x = sc.nextInt();
+        int y = sc.nextInt();
 
         if(x % y == 0){
             System.out.printf("%d is a multiple of %d\n", x, y);

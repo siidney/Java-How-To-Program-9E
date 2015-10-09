@@ -5,10 +5,10 @@
  *                  demonstrates class Date's capabilities.
  *
  *        Created:  05/10/15 17:42:16
- *       Revision:  none
+ *       Revision:  09/10/15 16:24:12
  *
  *        @Author:  Siidney Watson - siidney.watson@gmail.com
- *       @Version:  1.0
+ *       @Version:  1.1
  *
  * =====================================================================================
  */
@@ -18,13 +18,9 @@ public class DateTest{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        int month, day, year;
-
-        month = requestInput("Enter month: ", sc);
-        day = requestInput("Enter day: ", sc);
-        year = requestInput("Enter year: ", sc);
-
-        Date dt = new Date(month, day, year);
+        Date dt = new Date(requestInput("Enter month: ", sc),
+                           requestInput("Enter day: ", sc),
+                           requestInput("Enter year: ", sc));
 
         dt.displayDate();
 

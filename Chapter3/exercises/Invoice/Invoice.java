@@ -17,10 +17,10 @@
  *                  positive it should be set to 0.0.
  *
  *        Created:  28/09/15 17:51:22
- *       Revision:  none
+ *       Revision:  09/10/15 16:30:14
  *
  *        @Author:  Siidney Watson - siidney.watson@gmail.com
- *       @Version:  1.0
+ *       @Version:  1.1
  *
  * =====================================================================================
  */
@@ -46,16 +46,10 @@ public class Invoice{
         this.partDescription = partDescription;
     }
     public void setQuantity(int quantity){
-        if(quantity < 0)
-            quantity = 0;
-
-        this.quantity = quantity;
+        this.quantity = (quantity < 0) ? 0 : quantity;
     }
     public void setUnitPrice(double unitPrice){
-        if(unitPrice < 0.0)
-            unitPrice = 0.0;
-
-        this.unitPrice = unitPrice;
+        this.unitPrice = (unitPrice < 0.0) ? 0.0 : unitPrice;
     }
     // getters
     public String getPartNumber(){

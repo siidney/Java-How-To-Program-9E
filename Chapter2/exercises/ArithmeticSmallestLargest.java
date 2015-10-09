@@ -6,10 +6,10 @@
  *                  and largest of the numbers.
  *
  *        Created:  26/09/15 00:39:16
- *       Revision:  none
+ *       Revision:  09/10/15 15:43:50
  *
  *        @Author:  Siidney Watson - siidney.watson@gmail.com
- *       @Version:  1.0
+ *       @Version:  1.1
  *
  * =====================================================================================
  */
@@ -19,23 +19,10 @@ public class ArithmeticSmallestLargest{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        int x;
-        int y;
-        int z;
-        int sum;
-        int average;
-        int product;
-        int largest;
-        int smallest;
-
-        System.out.print("Enter first integer: ");
-        x = input.nextInt();
-
-        System.out.print("Enter second integer: ");
-        y = input.nextInt();
-
-        System.out.print("Enter third integer: ");
-        z = input.nextInt();
+        System.out.print("Enter three spaced separated integers: ");
+        int x = input.nextInt();
+        int y = input.nextInt();
+        int z = input.nextInt();
 
         // sum
         printResult("Sum", x + y + z);
@@ -46,31 +33,11 @@ public class ArithmeticSmallestLargest{
         // product
         printResult("Product", x * y * z);
 
-        // calculate largest
-        if(x > y){
-            largest = x;
-        }else{
-            largest = y;
-        }
-
-        if(z > largest)
-            largest = z;
-
-        // calculate smallest
-        if(x < y){
-            smallest = x;
-        }else{
-            smallest = y;
-        }
-
-        if(z < smallest)
-            smallest = z;
-
         // largest
-        printResult("Largest", largest);
+        printResult("Largest", Math.max(x, Math.max(y, z)));
 
         // smallest
-        printResult("Smallest", smallest);
+        printResult("Smallest", Math.min(x, Math.min(y, z)));
     }
 
     // print result

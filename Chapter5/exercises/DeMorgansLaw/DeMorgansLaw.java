@@ -1,7 +1,7 @@
 /*
  *       Filename:  DeMorgansLaw.java
  *
- *    Description:  5.23 - Writw an application to show that both the following
+ *    Description:  5.23 - Write an application to show that both the following
  *                  and the following equivalent to De Morgan's law produce the
  *                  same value.
  *

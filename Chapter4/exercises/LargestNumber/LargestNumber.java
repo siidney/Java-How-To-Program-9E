@@ -10,10 +10,10 @@
  *                      c) largest
  *
  *        Created:  01/10/15 18:34:43
- *       Revision:  none
+ *       Revision:  09/10/15 16:38:15
  *
  *        @Author:  Siidney Watson - siidney.watson@gmail.com
- *       @Version:  1.0
+ *       @Version:  1.1
  *
  * =====================================================================================
  */
@@ -21,9 +21,7 @@ public class LargestNumber{
     int current = 0, largest = 0;
 
     public void enterNumber(int x){
-        current = x;
-        if(current > largest)
-            largest = current;
+        largest = Math.max(x, largest);
     }
     public int getLargestNumber(){
         return largest;

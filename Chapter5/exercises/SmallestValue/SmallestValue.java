@@ -19,21 +19,18 @@ public class SmallestValue{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
-        int current, smallest, numValues, count = 0;
+        int numValues = requestInput("Enter number of values to sort: ", sc);
 
-        numValues = requestInput("Enter number of values to sort: ", sc);
+        int smallest = requestInput("Enter value: ", sc);
+        --numValues;
 
-        smallest = requestInput("Enter value: ", sc);
-        count++;
+        while(numValues > 0){
+            int current = requestInput("Enter values: ", sc);
 
-        while(count != numValues){
-            current = requestInput("Enter value: ", sc);
+            smallest = Math.min(current, smallest);
 
-            if(current < smallest)
-                smallest = current;
-            ++count;
+            --numValues;
         }
-
         System.out.printf("The smallest value is %d\n", smallest);
     }
     public static int requestInput(String s, Scanner sc){

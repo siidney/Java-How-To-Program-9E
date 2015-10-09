@@ -10,22 +10,17 @@
  *                  decrypt by reversing the above.
  *
  *        Created:  02/10/15 18:46:42
- *       Revision:  none
+ *       Revision:  09/10/15 16:53:16
  *
  *        @Author:  Siidney Watson - siidney.watson@gmail.com
- *       @Version:  1.0
+ *       @Version:  1.1
  *
  * =====================================================================================
  */
 public class EncryptDecrypt{
     // ensure number is of length 4
     public boolean validate(int value){
-        String aString = Integer.toString(value);
-
-        if(aString.length() == 4)
-            return true;
-        else
-            return false;
+        return (Integer.toString(value).length() == 4) ? true : false;
     }
     // 1. Replace each digit with the result of adding 7 to it and getting the
     //    remainder after dividing the new value by 10

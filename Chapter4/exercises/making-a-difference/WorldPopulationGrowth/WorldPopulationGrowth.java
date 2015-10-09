@@ -14,10 +14,10 @@
  *
  *
  *        Created:  06/10/15 10:45:27
- *       Revision:  none
+ *       Revision:  09/10/15 16:58:51
  *
  *        @Author:  Siidney Watson - siidney.watson@gmail.com
- *       @Version:  1.0
+ *       @Version:  1.1
  *
  * =====================================================================================
  */
@@ -57,13 +57,10 @@ public class WorldPopulationGrowth{
             population *= (1 + growthRate);
             populationProj[0][i] = population;
 
-            if(i == 0)
-                populationProj[1][i] = population - basePopulation;
-            else
-                populationProj[1][i] = population - populationProj[0][i-1];
+            populationProj[1][i] = (i == 0) ?
+                            population - basePopulation :
+                            population - populationProj[0][i-1];
         }
         return populationProj;
     }
-    // GETTERS
-
 }

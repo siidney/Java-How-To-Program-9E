@@ -7,10 +7,10 @@
  *                  print the message "These numbers are equal".
  *
  *        Created:  26/09/15 00:32:32
- *       Revision:  none
+ *       Revision:  09/10/15 15:35:21
  *
  *        @Author:  Siidney Watson - siidney.watson@gmail.com
- *       @Version:  1.0
+ *       @Version:  1.1
  *
  * =====================================================================================
  */
@@ -20,22 +20,13 @@ public class ComparingIntegers{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        int x;
-        int y;
+        System.out.print("Enter 2 integers separated by a space: ");
+        int x = input.nextInt();
+        int y = input.nextInt();
 
-        System.out.print("Enter first integer: ");
-        x = input.nextInt();
-
-        System.out.print("Enter second integer: ");
-        y = input.nextInt();
-
-        if(x == y)
+        if(x != y)
+            System.out.printf("%d is larger\n", Math.max(x, y));
+        else
             System.out.print("These numbers are equal\n");
-
-        if(x > y)
-            System.out.printf("%d is larger\n", x);
-
-        if(y > x)
-            System.out.printf("%d is larger\n", y);
     }
 }

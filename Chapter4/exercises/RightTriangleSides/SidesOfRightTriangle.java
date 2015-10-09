@@ -42,10 +42,7 @@ public class SidesOfRightTriangle{
     // the sum of any 2 sides must be greater than the 3rd
     // must be true of all combinations
     private static boolean isTriangle(int a, int b, int c){
-        if((a + b > c) && (a * c > b) && (b + c > a))
-            return true;
-
-        return false;
+        return ((a + b > c) && (a * c > b) && (b + c > a));
     }
     // second use pythgoras theorem to determine if is a right triangle
     // taking hypotenuse as longest side
@@ -59,10 +56,7 @@ public class SidesOfRightTriangle{
         else
             hypotenuse = c;
 
-        if(Math.pow(a, 2) + Math.pow(b, 2) == Math.pow(hypotenuse, 2))
-            return true;
-
-        return false;
+       return (Math.pow(a, 2) + Math.pow(b, 2) == Math.pow(hypotenuse, 2));
     }
 
 }

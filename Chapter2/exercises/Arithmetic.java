@@ -6,10 +6,10 @@
  *                  product, difference and quotient (division).
  *
  *        Created:  26/09/15 00:25:00
- *       Revision:  none
+ *       Revision:  09/10/15 15:40:40
  *
  *        @Author:  Siidney Watson - siidney.watson@gmail.com
- *       @Version:  1.0
+ *       @Version:  1.1
  *
  * =====================================================================================
  */
@@ -19,16 +19,12 @@ public class Arithmetic{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        int x = 0;
-        int y = 0;
         int difference = 0;
         int quotient = 0;
 
-        System.out.print("Enter first integer: ");
-        x = input.nextInt();
-
-        System.out.print("Enter second integer: ");
-        y = input.nextInt();
+        System.out.print("Enter 2 integers separated by a space: ");
+        int x = input.nextInt();
+        int y = input.nextInt();
 
         // sum
         printSolution("Sum", x + y);
@@ -36,11 +32,8 @@ public class Arithmetic{
         // product
         printSolution("Product", x * y);
 
-        // difference - avoid negative numbers
-        if(x > y)
-            printSolution("Difference", x - y);
-        else
-            printSolution("Difference", y - x);
+        // difference - take absolute value to avoid negative numbers
+        printSolution("Difference", Math.abs(x - y));
 
         if(x != 0 && y != 0)
             printSolution("Quotient", y % x);

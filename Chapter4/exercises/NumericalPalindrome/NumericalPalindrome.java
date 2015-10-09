@@ -17,12 +17,7 @@
 public class NumericalPalindrome{
     // ensure number is of length 5
     public boolean validate(int value){
-        String aString = Integer.toString(value);
-
-        if(aString.length() == 5)
-            return true;
-        else
-            return false;
+        return (Integer.toString(value).length() == 5);
     }
 
     public boolean isPalindrome(int value){
@@ -35,9 +30,6 @@ public class NumericalPalindrome{
             value /= 10;
         }
 
-        if(arrValue[0] == arrValue[4] && arrValue[1] == arrValue[3])
-            return true;
-        else
-            return false;
+        return ((arrValue[0] == arrValue[4]) && (arrValue[1] == arrValue[3]));
     }
 }

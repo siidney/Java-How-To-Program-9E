@@ -19,10 +19,10 @@
  *                  progam should display the message "Credit limit exceeded"
  *
  *        Created:  01/10/15 17:08:50
- *       Revision:  none
+ *       Revision:  09/10/15 16:33:23
  *
  *        @Author:  Siidney Watson - siidney.watson@gmail.com
- *       @Version:  1.0
+ *       @Version:  1.1
  *
  * =====================================================================================
  */
@@ -73,9 +73,6 @@ public class CreditLimitCalculator{
         return getStartBalance() - getTotalCharges() + getTotalCredits();
     }
     public boolean creditExceeded(){
-        if(getNewBalance() > getCreditLimit())
-            return false;
-
-        return true;
+        return (getNewBalance() > getCreditLimit()) ? false : true;
     }
 }
