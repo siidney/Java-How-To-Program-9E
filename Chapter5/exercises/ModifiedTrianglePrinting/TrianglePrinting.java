@@ -5,6 +5,8 @@
  *                  separate triangles of asterisks such that all four patterns
  *                  print side by side.
  *
+ *                  TODO: Start this.
+ *
  *        Created:  07/10/15 00:01:58
  *       Revision:  none
  *
@@ -46,7 +48,7 @@ public class TrianglePrinting{
         // Pattern D
         for(int i=1; i<=10; i++){
             // blank spaces
-           for(int j=10 - i; j>0; j--){
+            for(int j=10 - i; j>0; j--){
                 System.out.print(' ');
             }
             for(int k=0; k<i; k++){
