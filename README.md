@@ -17,3 +17,4 @@ solutions may not be done in the most efficient, or even correct, way.
 > - **Chapter 4** - Control Statements: Part 1
 > - **Chapter 5** - Control Statements: Part 2
 > - **Chapter 6** - Methods: A Deeper Look
+> - **Chapter 7** - Arrays and ArrayLists
