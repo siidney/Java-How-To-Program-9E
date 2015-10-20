@@ -28,7 +28,7 @@ import java.util.Scanner;
 public class SalesCommissions{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int[] frequency = new int[11];
+        int[] frequency = new int[9];
 
         while(true){
             System.out.print("Enter salespersons total (-1 to exit): ");
@@ -42,14 +42,16 @@ public class SalesCommissions{
             else if(response > 1000)
                 response = 1000;
 
-            ++frequency[response / 100];
+            // -2 to account for sales amounts starting at 200
+            // avoids having unneccesary extra array elements
+            ++frequency[(response / 100) -2];
         }
 
-        for(int i=2; i<frequency.length; i++){
-            if(i == 10)
-                System.out.printf("$%d00+   : %d\n", i, frequency[i]);
+        for(int i=0; i<frequency.length; i++){
+            if(i == 8)
+                System.out.printf("$%d00+   : %d\n", i + 2, frequency[i]);
             else
-                System.out.printf("$%d00-$%d99: %d\n", i, i, frequency[i]);
+                System.out.printf("$%d00-$%d99: %d\n", i + 2, i + 2, frequency[i]);
         }
     }
 }
