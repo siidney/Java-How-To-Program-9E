@@ -107,9 +107,9 @@ public class TicTacToe{
         // header
         System.out.printf("%3d%3d%3d\n", 0, 1, 2);
 
-        for(int row=0; row<gameBoard.length; row++){
+        for(int row=0; row<GRID_ROWS; row++){
             System.out.printf("%d", row);
-            for(int col=0; col<gameBoard[row].length; col++){
+            for(int col=0; col<GRID_COLS; col++){
                 if(gameBoard[row][col] == 1)
                     System.out.print(" " + CellValue.X + " ");
                 else if(gameBoard[row][col] == 2)

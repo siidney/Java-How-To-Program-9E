@@ -18,4 +18,5 @@ solutions may not be done in the most efficient, or even correct, way.
 > - **Chapter 5** - Control Statements: Part 2
 > - **Chapter 6** - Methods: A Deeper Look
 > - **Chapter 7** - Arrays and ArrayLists
-> - **Chapter 8** - Classes and Objects: A Deeper Look (in progress)
+> - **Chapter 8** - Classes and Objects: A Deeper Look
+> - **Chapter 9** - Object-Oriented Programming: Inheritence (in progress)
