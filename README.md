@@ -11,12 +11,13 @@ solutions may not be done in the most efficient, or even correct, way.
 
 ##Chapter List (Updated as they are started)
 
-> - **Chapter 1** - Introduction to Computing
-> - **Chapter 2** - Introduction to Java Applications
-> - **Chapter 3** - Introduction to Classes, Objects, Methods and Strings
-> - **Chapter 4** - Control Statements: Part 1
-> - **Chapter 5** - Control Statements: Part 2
-> - **Chapter 6** - Methods: A Deeper Look
-> - **Chapter 7** - Arrays and ArrayLists
-> - **Chapter 8** - Classes and Objects: A Deeper Look
-> - **Chapter 9** - Object-Oriented Programming: Inheritence (in progress)
+> - **Chapter 1**  - Introduction to Computing
+> - **Chapter 2**  - Introduction to Java Applications
+> - **Chapter 3**  - Introduction to Classes, Objects, Methods and Strings
+> - **Chapter 4**  - Control Statements: Part 1
+> - **Chapter 5**  - Control Statements: Part 2
+> - **Chapter 6**  - Methods: A Deeper Look
+> - **Chapter 7**  - Arrays and ArrayLists
+> - **Chapter 8**  - Classes and Objects: A Deeper Look
+> - **Chapter 9**  - Object-Oriented Programming: Inheritence
+> - **Chapter 10** - Object-Oriented Programming: Polymorphism (in progress)
