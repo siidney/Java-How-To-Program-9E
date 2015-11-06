@@ -1,14 +1,14 @@
 /*
  *       Filename:  DrawPanel.java
  *
- *    Description:  8.1 - Extend 8.18-8.20 to randomly draw rectangles and
+ *    Description:  9.1 - modify 8.1 to return String containing status text.
  *                  ovals.
  *
  *        Created:  26/10/15 18:08:25
- *       Revision:  none
+ *       Revision:  06/11/15 15:54:58
  *
  *        @Author:  Siidney Watson - siidney.watson@gmail.com
- *       @Version:  1.0
+ *       @Version:  1.1
  *
  * =====================================================================================
  */
@@ -84,6 +84,7 @@ public class DrawPanel extends JPanel{
         }
 
     }
+    // return string representation of the count of each shape
     public String getStatus(){
         return String.format("%s: %s, %s: %s, %s: %s",
                 "Lines", lines.length, "Ovals", ovals.length,

@@ -1,13 +1,14 @@
 /*
  *       Filename:  TestDraw.java
  *
- *    Description:  8.20 - Creating a JFrame to display a DrawPanel
+ *    Description:  9.1 - Creating a JFrame to display a DrawPanel with a label
+ *                  to display status text.
  *
  *        Created:  26/10/15 18:13:26
- *       Revision:  none
+ *       Revision:  06/11/15 15:56:02
  *
  *        @Author:  Siidney Watson - siidney.watson@gmail.com
- *       @Version:  1.0
+ *       @Version:  1.1
  *
  * =====================================================================================
  */
