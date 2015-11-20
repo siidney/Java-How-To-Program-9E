@@ -1,0 +1,22 @@
+Create three small classes unrelated by inheritance:
+Building, Car, Bicycle.
+
+Give each class some unique appropriate attributes and behaviours that it
+does not have in common with other classes.
+
+Write an interface CarbonFootprint with a getCarbonFootprint method.
+
+Have each class implement that interface, so that its getCarbonFootprint
+method calculates an appropriate carbon footprint for that class.
+
+Write an application that creates objects of each of the three classes,
+places references to those objects in ArrayList<CarbonFootprint>, then
+iterates through the ArrayList, polymorphically invoking each object's
+getCarbonFootprint method.
+
+For each object, print some identifying information and the object's
+carbon footprint.
+
+All calculations taken from
+www.zeroghg.com/howto_calculate_carbon_footprint.html
+www.fleetnews.co.uk/costs/carbon-footprint-calculator/

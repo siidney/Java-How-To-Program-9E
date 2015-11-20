@@ -20,4 +20,5 @@ solutions may not be done in the most efficient, or even correct, way.
 > - **Chapter 7**  - Arrays and ArrayLists
 > - **Chapter 8**  - Classes and Objects: A Deeper Look
 > - **Chapter 9**  - Object-Oriented Programming: Inheritence
-> - **Chapter 10** - Object-Oriented Programming: Polymorphism (in progress)
+> - **Chapter 10** - Object-Oriented Programming: Polymorphism
+> - **Chapter 11** - Exception Handling: A Deeper Look (in progress)
