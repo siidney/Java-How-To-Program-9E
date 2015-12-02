@@ -1,0 +1,14 @@
+Use inheritance to create an exception superclass (ExceptionA) and exception
+subclasses ExceptionB and ExceptionC, where ExceptionB inherits from ExceptionA
+and ExceptionC inherits from ExceptionB.
+
+Write a program to demonstrate that the catch block for type ExcecptionA
+catches exceptions of type ExceptionB and ExceptionC.
+
+ExceptionA
+    |
+    V
+ExceptionB
+    |
+    V
+ExceptionC
