@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+fontsize=11
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Welcome to UMLet!
+//
+// Double-click on elements to add them to the diagram, or to copy them
+// Edit elements by modifying the text in this panel
+// Hold Ctrl to select multiple elements
+// Use Ctrl+mouse to select via lasso
+//
+// Use +/- or Ctrl+mouse wheel to zoom
+// Drag a whole relation at its central square icon
+//
+// Press Ctrl+C to copy the whole diagram to the system clipboard (then just paste it to, eg, Word)
+// Edit the files in the "palettes" directory to create your own element palettes
+//
+// Select "Custom Elements &gt; New..." to create new element types
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+JHTP 9e Fig. 12.12 - Classes with attributes</help_text>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>120</y>
+      <w>240</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>ATM
+--
+userAuthenticated:Boolean = false
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>190</y>
+      <w>240</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>BalanceInquiry
+--
+accountNumber:Integer
+--
+execute()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>260</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Withdrawl
+--
+accountNumber:Integer
+amount:Double
+--
+execute()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>500</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>DepositSlot
+--
+
+--
+isEnvelopeReceived():Boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>420</y>
+      <w>420</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>BankDatabase
+--
+
+--
+authenticateUser(userAccountNumber:Integer, userPIN:Integer):Boolean
+getAvailableBalance(userAccountNumber:Integer):Double
+getTotalBalance(userAccountNunmber:Integer):Double
+credit(userAccountNumber:Integer, amount:Double)
+debit(userAccountNumber:Integer, amount:Double)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>340</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Deposit
+--
+accountNumber:Integer
+amount:Double
+--
+execute()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>420</y>
+      <w>290</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>CashDispenser
+--
+count:Integer = 500
+--
+dispenseCash(amount:Double)
+isSufficientCashAvailable(amount:Double):Boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>350</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Keypad
+--
+
+--
+getInput():Integer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>280</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Screen
+--
+
+--
+displayMessage(message:String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>120</y>
+      <w>220</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Account
+--
+accountNumber:Integer
+pin:Integer
+availableBalance:Double
+totalBalance:Double
+--
+validatePIN(userPIN:Integer):Boolean
+getAvailableBalance():Double
+getTotalBalance():Double
+credit(amount:Double)
+debit(amount:Double)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

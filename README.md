@@ -21,6 +21,7 @@ solutions may not be done in the most efficient, or even correct, way.
 > - **Chapter 8**  - Classes and Objects: A Deeper Look
 > - **Chapter 9**  - Object-Oriented Programming: Inheritence
 > - **Chapter 10** - Object-Oriented Programming: Polymorphism
-> - **Chapter 11** - Exception Handling: A Deeper Look (partially complete)
+> - **Chapter 11** - Exception Handling: A Deeper Look (incomplete)
 > - **Chapter 12** - ATM Case Study, Part 1: Object-Oriented Design with the UML
->   (in progress)
+> - **Chapter 13** - ATM Case Study, Part 2: Implementing an Object-Oriented Design
+> - **Chapter 14** - GUI Components: Part 1 (in progress)
