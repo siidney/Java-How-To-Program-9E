@@ -28,8 +28,8 @@ JHTP 9e Fig. 13.2 - Class diagram with navigability arrows</help_text>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>150</x>
-      <y>480</y>
+      <x>170</x>
+      <y>490</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -39,8 +39,8 @@ JHTP 9e Fig. 13.2 - Class diagram with navigability arrows</help_text>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>310</y>
+      <x>70</x>
+      <y>320</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -50,8 +50,8 @@ JHTP 9e Fig. 13.2 - Class diagram with navigability arrows</help_text>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>390</y>
+      <x>70</x>
+      <y>400</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -61,8 +61,8 @@ JHTP 9e Fig. 13.2 - Class diagram with navigability arrows</help_text>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>310</y>
+      <x>270</x>
+      <y>320</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -72,8 +72,8 @@ JHTP 9e Fig. 13.2 - Class diagram with navigability arrows</help_text>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>390</y>
+      <x>270</x>
+      <y>400</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -83,8 +83,8 @@ JHTP 9e Fig. 13.2 - Class diagram with navigability arrows</help_text>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>480</y>
+      <x>420</x>
+      <y>490</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -94,8 +94,8 @@ JHTP 9e Fig. 13.2 - Class diagram with navigability arrows</help_text>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>150</x>
-      <y>580</y>
+      <x>170</x>
+      <y>590</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -105,8 +105,8 @@ JHTP 9e Fig. 13.2 - Class diagram with navigability arrows</help_text>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>150</x>
-      <y>690</y>
+      <x>170</x>
+      <y>700</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -116,8 +116,8 @@ JHTP 9e Fig. 13.2 - Class diagram with navigability arrows</help_text>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>200</x>
-      <y>600</y>
+      <x>220</x>
+      <y>610</y>
       <w>90</w>
       <h>110</h>
     </coordinates>
@@ -132,8 +132,8 @@ Contains v</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>410</y>
+      <x>250</x>
+      <y>420</y>
       <w>100</w>
       <h>90</h>
     </coordinates>
@@ -145,8 +145,8 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>100</x>
-      <y>410</y>
+      <x>120</x>
+      <y>420</y>
       <w>100</w>
       <h>90</h>
     </coordinates>
@@ -158,8 +158,8 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>210</x>
-      <y>310</y>
+      <x>230</x>
+      <y>320</y>
       <w>60</w>
       <h>190</h>
     </coordinates>
@@ -171,8 +171,8 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>310</y>
+      <x>180</x>
+      <y>320</y>
       <w>60</w>
       <h>190</h>
     </coordinates>
@@ -184,8 +184,8 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>500</y>
+      <x>280</x>
+      <y>510</y>
       <w>240</w>
       <h>140</h>
     </coordinates>
@@ -202,8 +202,8 @@ balance through</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>200</x>
-      <y>500</y>
+      <x>220</x>
+      <y>510</y>
       <w>180</w>
       <h>100</h>
     </coordinates>
@@ -219,8 +219,8 @@ Authenticates user against
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>470</y>
+      <x>280</x>
+      <y>480</y>
       <w>160</w>
       <h>50</h>
     </coordinates>
@@ -235,8 +235,8 @@ Executes &gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>400</y>
+      <x>380</x>
+      <y>410</y>
       <w>100</w>
       <h>100</h>
     </coordinates>
@@ -250,8 +250,8 @@ m2=0..1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>310</y>
+      <x>380</x>
+      <y>320</y>
       <w>140</w>
       <h>190</h>
     </coordinates>
@@ -265,8 +265,8 @@ m2=0..1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>100</x>
-      <y>260</y>
+      <x>120</x>
+      <y>270</y>
       <w>440</w>
       <h>240</h>
     </coordinates>

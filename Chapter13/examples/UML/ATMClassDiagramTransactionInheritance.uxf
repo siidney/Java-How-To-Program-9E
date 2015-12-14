@@ -36,7 +36,7 @@ subclasses BalanceInquiry, Withdrawl and Deposit.</help_text>
     </coordinates>
     <panel_attributes>BalanceInquiry
 --
-- accountNumber:Integer
+
 --
 + execute()</panel_attributes>
     <additional_attributes/>
@@ -51,7 +51,6 @@ subclasses BalanceInquiry, Withdrawl and Deposit.</help_text>
     </coordinates>
     <panel_attributes>Withdrawl
 --
-- accountNumber:Integer
 - amount:Double
 --
 + execute()</panel_attributes>
@@ -67,7 +66,6 @@ subclasses BalanceInquiry, Withdrawl and Deposit.</help_text>
     </coordinates>
     <panel_attributes>Deposit
 --
-- accountNumber:Integer
 - amount:Double
 --
 + execute()</panel_attributes>
