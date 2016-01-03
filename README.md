@@ -12,16 +12,17 @@ solutions may not be done in the most efficient, or even correct, way.
 ##Chapter List (Updated as they are started)
 
 > - **Chapter 1**  - Introduction to Computing
-> - **Chapter 2**  - Introduction to Java Applications
-> - **Chapter 3**  - Introduction to Classes, Objects, Methods and Strings
-> - **Chapter 4**  - Control Statements: Part 1
-> - **Chapter 5**  - Control Statements: Part 2
-> - **Chapter 6**  - Methods: A Deeper Look
-> - **Chapter 7**  - Arrays and ArrayLists
-> - **Chapter 8**  - Classes and Objects: A Deeper Look
-> - **Chapter 9**  - Object-Oriented Programming: Inheritence
-> - **Chapter 10** - Object-Oriented Programming: Polymorphism
-> - **Chapter 11** - Exception Handling: A Deeper Look (incomplete)
-> - **Chapter 12** - ATM Case Study, Part 1: Object-Oriented Design with the UML
-> - **Chapter 13** - ATM Case Study, Part 2: Implementing an Object-Oriented Design
-> - **Chapter 14** - GUI Components: Part 1 (in progress)
+> - **Chapter 2**  - [Introduction to Java Applications](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter2)
+> - **Chapter 3**  - [Introduction to Classes, Objects, Methods and Strings](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter3)
+> - **Chapter 4**  - [Control Statements: Part 1](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter4)
+> - **Chapter 5**  - [Control Statements: Part 2](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter5)
+> - **Chapter 6**  - [Methods: A Deeper Look](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter6)
+> - **Chapter 7**  - [Arrays and ArrayLists](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter7)
+> - **Chapter 8**  - [Classes and Objects: A Deeper Look](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter8)
+> - **Chapter 9**  - [Object-Oriented Programming: Inheritence](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter9)
+> - **Chapter 10** - [Object-Oriented Programming: Polymorphism](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter10)
+> - **Chapter 11** - [Exception Handling: A Deeper Look](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter11) - *incomplete*
+> - **Chapter 12** - [ATM Case Study, Part 1: Object-Oriented Design with the
+>   UML](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter12)
+> - **Chapter 13** - [ATM Case Study, Part 2: Implementing an Object-Oriented Design](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter13)
+> - **Chapter 14** - [GUI Components: Part 1](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter14) - *in progress*
