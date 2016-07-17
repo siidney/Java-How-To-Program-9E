@@ -6,7 +6,7 @@
  *        Created:  16/12/15 14:59:46
  *       Revision:  none
  *
- *        @Author:  Siidney Watson - siidney.watson@gmail.com
+ *        @Author:  Siidney Watson - siidney.watson.work@gmail.com
  *       @Version:  1.0
  *
  * =====================================================================================

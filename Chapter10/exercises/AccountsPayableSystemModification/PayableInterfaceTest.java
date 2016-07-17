@@ -15,7 +15,7 @@
  *        Created:  16/11/15 17:51:53
  *       Revision:  17/11/15 23:55:47
  *
- *        @Author:  Siidney Watson - siidney.watson@gmail.com
+ *        @Author:  Siidney Watson - siidney.watson.work@gmail.com
  *       @Version:  1.1
  *
  * =====================================================================================
