@@ -26,3 +26,20 @@ solutions may not be done in the most efficient, or even correct, way.
 >   UML](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter12)
 > - **Chapter 13** - [ATM Case Study, Part 2: Implementing an Object-Oriented Design](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter13)
 > - **Chapter 14** - [GUI Components: Part 1](https://github.com/siidney/Java-How-To-Program-9E/tree/master/Chapter14) - *in progress*
+> - **Chapter 15** - Graphics and Java 2D
+> - **Chapter 16** - Strings, Character and Regular Expressions
+> - **Chapter 17** - Files, Streams and Object Serialization
+> - **Chapter 18** - Recursion
+> - **Chapter 19** - Searching, Sorting and Big O
+> - **Chapter 20** - Generic Collections
+> - **Chapter 21** - Generic Classes and Methods
+> - **Chapter 22** - Custom Generic Data Structures
+> - **Chapter 23** - Applets and Java Web Start
+> - **Chapter 24** - Multimedia: Applets and Applications
+> - **Chapter 25** - GUI Components: Part 2
+> - **Chapter 26** - Multithreading
+> - **Chapter 27** - Networking
+> - **Chapter 28** - Accessing Databases with JDBC
+> - **Chapter 29** - JavaServer Faces Web Apps: Part 1
+> - **Chapter 30** - JavaServer Faces Web Apps: Part 2
+> - **Chapter 31** - Web Services
