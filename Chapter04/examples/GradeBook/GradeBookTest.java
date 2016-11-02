@@ -1,7 +1,7 @@
 /*
  *       Filename:  GradeBookTest.java
  *
- *    Description:  4.7 - Create GradeBook object and calculate average
+ *    Description:  Fig. 4.7 - Create GradeBook object and calculate average
  *
  *        Created:  29/09/15 16:53:12
  *       Revision:  none

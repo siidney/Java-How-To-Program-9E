@@ -1,7 +1,7 @@
 /*
  *       Filename:  GradeBook.java
  *
- *    Description:  4.9 - GradeBook class to solve class-average score using
+ *    Description:  Fig. 4.9 - GradeBook class to solve class-average problem using
  *                  sentinel controlled repitition.
  *
  *        Created:  29/09/15 16:45:59

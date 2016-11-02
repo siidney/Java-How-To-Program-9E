@@ -1,7 +1,7 @@
 /*
  *       Filename:  Analysis.java
  *
- *    Description:  4.12 - Analysis of examination results using nested control
+ *    Description:  Fig. 4.12 - Analysis of examination results using nested control
  *                  statements
  *
  *        Created:  30/09/15 12:34:16
