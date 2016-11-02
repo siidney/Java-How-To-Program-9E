@@ -1,7 +1,7 @@
 /*
  *       Filename:  GUIDemo.java
  *
- *    Description:  14.10 - GUIDemo
+ *    Description:  Exercise 14.10 - Create GUI
  *
  *        Created:  19/01/16 00:54:15
  *       Revision:  none

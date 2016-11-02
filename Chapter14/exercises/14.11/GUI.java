@@ -1,8 +1,7 @@
 /*
  *       Filename:  GUI.java
  *
- *    Description:  14.11 - Create the following GUI. You do not have to provide
- *                  any functionality.
+ *    Description:  Exercise 14.11 - Create GUI
  *
  *        Created:  23/01/16 19:18:38
  *       Revision:  none

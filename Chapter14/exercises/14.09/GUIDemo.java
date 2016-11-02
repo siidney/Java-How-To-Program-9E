@@ -1,9 +1,9 @@
 /*
  *       Filename:  GUIDemo.java
  *
- *    Description:  Exercise 14.11 - Create GUI
+ *    Description:  Exercise 14.9 - Create GUI
  *
- *        Created:  23/01/16 19:18:27
+ *        Created:  19/01/16 00:33:35
  *       Revision:  none
  *
  *        @Author:  Siidney Watson - siidney.watson.work@gmail.com
@@ -17,7 +17,7 @@ public class GUIDemo{
     public static void main(String[] args){
         GUI gui = new GUI();
         gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        gui.setSize(700, 200);
+        gui.setSize(250, 250);
         gui.setVisible(true);
     }
 }
